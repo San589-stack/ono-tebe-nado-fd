@@ -6,3 +6,6 @@
 ## Технологии
 - HTML5
 - CSS3 (Flexbox, Grid)
+- 
+## Ссылка на репозиторий
+https://github.com/San589-stack/ono-tebe-nado-fd
