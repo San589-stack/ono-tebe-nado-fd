@@ -2,13 +2,15 @@
 {
     display: grid;
     align-items: center;
-    padding: 92px 50px;
-    grid-template-columns: auto 1fr auto;
+    padding-top: 92px;
+    padding-bottom: 92px;
+    grid-template-columns: 478px 148px 474px;
 }
 
 .header_menu
 {
     justify-self: start;
+    padding-left: 50px;
 }
 
 .header_links_list
@@ -57,6 +59,7 @@
 {
     justify-self: end;
     max-width: 240px;
+    padding-right: 50px;
     display: flex;
     flex-direction: column;
     gap: 0;
@@ -76,7 +79,7 @@
 .cover 
 {
     width: 1100px;
-    height: 757px;
+    min-height: 757px;
     padding: 165px 50px 207px;
     background-image: url('../images/cover.jpg');
     background-size: cover;
@@ -85,7 +88,7 @@
     position: relative;
 }
 
-.cover::before 
+.overlay::before
 {
     content: '';
     position: absolute;
@@ -208,7 +211,7 @@
 .lots_card_list_item 
 {
     width: 334px;
-    height: 596px;
+    min-height: 596px;
 }
 
 .card_link
@@ -222,7 +225,7 @@
 .lots_card
 {
     width: 334px;
-    height: 596px;
+    min-height: 596px;
     position: relative;
     background-size: cover;
     background-position: center;
@@ -231,15 +234,6 @@
     flex-direction: column;
     justify-content: space-between;
     padding: 48px 40px;
-}
-
-.lots_card::before
-{
-    content: '';
-    position: absolute;
-    inset: 0;
-    background: rgba(0, 0, 0, 0.6);
-    z-index: 1;
 }
 
 .card_type_film 
@@ -349,7 +343,6 @@
 
 .about_title
 {
-    width: 291px;
     margin-top: 0;
     margin-bottom: 100px;
     color: #000;
@@ -385,7 +378,6 @@
 .footer
 {
     width: 1100px;
-    height: 180px;
     margin-top: 180px;
     padding: 0 50px;
     display: flex;
@@ -446,7 +438,6 @@
 .footer_socials
 {
     width: 240px;
-    height: 48px;
     display: flex;
     flex-direction: row;
     gap: 48px;
