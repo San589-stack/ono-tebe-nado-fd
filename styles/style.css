@@ -81,8 +81,8 @@
 .cover 
 {
     width: 1100px;
-    height: 757px;
-    padding: 165px 50px 207px;
+    min-height: 757px;
+    padding: 165px 50px 50px;
     box-sizing: border-box;
     background-image: url('../images/cover.jpg');
     background-size: cover;
@@ -142,7 +142,6 @@
     align-items: baseline;
     gap: 107px;
     margin-top: 106px;
-    margin-bottom: 50px;
     position: relative;
     z-index: 2;
 }
